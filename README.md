@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python application provides a graphical interface for controlling relay modules that use the serial communication protocol described in the documentation. The application supports both English and Russian languages and remembers the last used settings.
+This Python application provides a graphical interface for controlling relay modules that use the serial communication protocol described in the documentation. These relays are often listed as **USB Serial Port Relay Module** in online stores. The application supports both English and Russian languages and remembers the last used settings.
 
 ## Application Screenshot
 ![Application Screenshot](img/app_screenshot.png "Python Relay Control Application - Serial Port Management")
