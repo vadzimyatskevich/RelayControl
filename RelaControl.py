@@ -345,7 +345,6 @@ class RelayControlApp:
         if self.serial_port and self.serial_port.is_open:
             self.serial_port.reset_input_buffer()
             self.serial_port.reset_output_buffer()
-            self.log_message(self.t("port_buffer_cleared"))
     
     def send_command(self, command):
         """Отправляет команду на реле"""
