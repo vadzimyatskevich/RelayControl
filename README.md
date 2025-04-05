@@ -1,10 +1,15 @@
 # Relay Control Application
 
-![Application Screenshot](img/app_screenshot.png)
-
 ## Overview
 
 This Python application provides a graphical interface for controlling relay modules that use the serial communication protocol described in the documentation. The application supports both English and Russian languages and remembers the last used settings.
+
+## Application Screenshot
+![Application Screenshot](img/app_screenshot.png "Python Relay Control Application - Serial Port Management")
+## Relay Photo
+![Relay Photo](img/relay.png "CH340 USB serial relay")
+## Control protocol
+![Control protocol](img/protocol.png "USB serial relay")
 
 ## Features
 
@@ -22,7 +27,7 @@ This Python application provides a graphical interface for controlling relay mod
 2. Click "Connect" to establish the connection
 3. The indicator will turn gray when disconnected
 
-![Connection Setup](img/connection_setup.png)
+
 
 ### Controlling Relays
 1. Enter the relay number (1-254)
@@ -33,7 +38,7 @@ This Python application provides a graphical interface for controlling relay mod
    - **Get Status**: Query current relay status
 3. Check "Expect response" if you want to wait for module feedback
 
-![Relay Control](img/relay_control.png)
+
 
 ### Language Switching
 Use the language dropdown to switch between English and Russian interfaces. The selected language will be saved for future sessions.
